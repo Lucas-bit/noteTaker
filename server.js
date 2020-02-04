@@ -43,6 +43,8 @@ app.get("/", (req, res) => {
 
 
 
+
+
   app.get("/api/noteText", (req, res) => {
     res.json(noteText)
   });
@@ -54,13 +56,17 @@ app.get("/", (req, res) => {
   })
 
   app.delete("/api/notes/:id", (req, res) => {
+    
     storage.removeNote(req.param.id)
+    
+    console.log(storage.removeNote(req.param.id))
+    
     .then(() => res.json({
       ok: true //yes we deleted the note succesfully
     }))
     .catch(error => res.status(500).json(error)) 
-
-  })
+      
+  });
 
 //=====================================================
   // Server listen

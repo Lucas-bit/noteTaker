@@ -29,7 +29,7 @@ class Storage {
 
     AddNotes(note) {
         console.log(note)
-        const {title, text} = note //expands what is inside note into indiidula elements
+        const {title, text} = note //expands what is inside note into individual elements
         const newNote = {
            title, text, id: ++this.lastID
         }
