@@ -2,7 +2,12 @@
 Express.js route app that allows the user to create, save, and delete notes.
 
 # Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes: Copy the repository from Github, create a clone, and open in your code editor of choice. See deployment for notes on how to deploy the project on a live system. Run npm i to install required packages. Run npm start to launch application locally.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes: 
+
+Copy the repository from Github, create a clone, and open in your code editor of choice. See deployment for notes on how to deploy the project on a live system. 
+
+Run npm i to install required packages. 
+Run npm start to launch application locally.
 
 # Deploy
 Connect Github repository to Heroku app
