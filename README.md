@@ -21,6 +21,8 @@ Run node server.js to launch application locally as pictured below.
 
 ![](note-taker-start-instructions.png)
 
+
+# Local Port
 App runs on PORT:8080 ensure that your url reads the following: localhost:8080 as pictured below.
 
 ![](note-taker-localhost-photo.png)
@@ -28,6 +30,6 @@ App runs on PORT:8080 ensure that your url reads the following: localhost:8080 a
 # Built With
 Javascript, Express.js, HTML5, CSS, Bootstrap
 
-# Authors
+# Author
 Lucas Gonzalez lucasberatudgonzalez@gmail.com https://github.com/Lucas-bit https://lucas-bit.github.io/Nice-Portfolio/
 
